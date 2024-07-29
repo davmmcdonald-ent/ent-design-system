@@ -1,0 +1,93 @@
+/* Contains foundational styles such as resets, typography, and basic element styling. */
+
+/* Global Variables */
+:root {
+    --color-primary: #a91523;
+    --color-secondary: #1125a9;
+    --color-accent: #fec830;
+    --color-ltgrey-1: #eeeeee;
+    --color-ltgrey-2: #dddddd;
+    --color-dkgrey-1: #acaeb0;
+    --color-dkgrey-2: #4d5254;
+}
+
+/* Reset Styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    color: var(--color-dkgrey-2);
+    font-family: 'new-hero', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+input[type="checkbox"] {
+    accent-color: var(--color-primary);
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: var(--color-secondary);
+}
+
+ul {
+    margin-bottom: 24px;
+    list-style-position: inside;
+}
+
+/* Typography Styles */
+h1 {
+    margin-bottom: 24px;
+    color: #000000;
+    font-size: 4rem;
+}
+
+h2 {
+    margin-bottom: 24px;
+    color: #000000;
+    font-size: 2.4rem;
+}
+
+h3 {
+    margin-bottom: 24px;
+    font-size: 1.8rem;
+}
+
+p {
+    margin-bottom: 24px;
+}

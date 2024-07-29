@@ -1,0 +1,64 @@
+<h1>Color Palette</h1>
+
+<p class="page-description">Our color system is designed to create a cohesive and visually appealing experience throughout our website. The primary and neutral palettes are adaptations of our brand palette, specifically tailored for digital interfaces. We use a clear naming convention for CSS variables to ensure consistency and ease of use. The naming convention follows a pattern of <span class="inline-code">--color-[shade]-[variant]</span>, where <span class="inline-code">[shade]</span> represents the color shade (e.g., primary, secondary, ltgrey, dkgrey) and <span class="inline-code">[variant]</span> denotes the specific variant number (e.g., 1, 2).</p>
+
+<h2>Primary Web Palette</h2>
+<p>The primary web palette is the cornerstone of our digital design, providing the essential colors that define our brand's online presence. These colors are used for the most prominent elements to create a strong visual impact.</p>
+<div class="flexbox">
+    <div class="color-swatch" style="background-color: #a91523;">#a91523</div>
+    <div class="color-swatch" style="background-color: #1125a9;">#1125a9</div>
+    <div class="color-swatch" style="background-color: #fec830;">#fec830</div>
+</div>
+<div class="code-pane">
+    <div class="code-pane__title">CSS</div>
+    <div class="code-pane__content">
+        <pre><code>:root {
+    --color-primary: #a91523;
+    --color-secondary: #1125a9;
+    --color-accent: #fec830;
+}</code></pre>
+    </div>
+</div>
+<h3>Usage examples:</h3>
+<ul>
+    <li><strong>Primary Color:</strong> Used for CTA buttons, background color floods, and other prominent elements.</li>
+    <li><strong>Secondary Color:</strong> Applied to non-CTA buttons, links, icon sections, and other secondary elements.</li>
+    <li><strong>Accent Color:</strong> Utilized sparingly, primarily for hero button hover states and other attention-grabbing elements.</li>
+</ul>
+
+<h2>Neutral Web Palette</h2>
+<p>Our neutral web palette complements the primary colors, providing a balanced and versatile set of hues. These colors are ideal for backgrounds, borders, and subtle elements that support the primary and accent colors.</p>
+<div class="flexbox">
+    <div class="color-swatch color-swatch--alt" style="background-color: #eeeeee;">#eeeeee</div>
+    <div class="color-swatch color-swatch--alt" style="background-color: #dddddd;">#dddddd</div>
+    <div class="color-swatch" style="background-color: #acaeb0;">#acaeb0</div>
+    <div class="color-swatch" style="background-color: #4d5254;">#4d5254</div>
+</div>
+<div class="code-pane">
+    <div class="code-pane__title">CSS</div>
+    <div class="code-pane__content">
+        <pre><code>:root {
+    --color-ltgrey-1: #eeeeee;
+    --color-ltgrey-2: #dddddd;
+    --color-dkgrey-1: #acaeb0;
+    --color-dkgrey-2: #4d5254;
+}</code></pre>
+    </div>
+</div>
+
+<h2>Brand Palette</h2>
+<p>The brand palette encompasses the full spectrum of our brand's colors, used across various mediums and applications. This palette ensures that our visual identity remains consistent and recognizable in all contexts.</p>
+<div class="flexbox">
+    <div class="color-swatch" style="background-color: #a91523;">#a91523</div>
+    <div class="color-swatch" style="background-color: #e22e2c;">#e22e2c</div>
+    <div class="color-swatch" style="background-color: #680d15;">#680d15</div>
+    <div class="color-swatch" style="background-color: #707372;">#707372</div>
+    <div class="color-swatch" style="background-color: #fec830;">#fec830</div>
+    <div class="color-swatch" style="background-color: #acaeb0;">#acaeb0</div>
+    <div class="color-swatch" style="background-color: #4d5254;">#4d5254</div>
+    <div class="color-swatch" style="background-color: #00a0b7;">#00a0b7</div>
+    <div class="color-swatch" style="background-color: #0082a4;">#0082a4</div>
+    <div class="color-swatch" style="background-color: #1125a9;">#1125a9</div>
+</div>
+
+<script>hljs.highlightAll();</script>
